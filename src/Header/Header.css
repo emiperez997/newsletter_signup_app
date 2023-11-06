@@ -1,0 +1,32 @@
+.illustration {
+  background-image: url("/images/illustration-sign-up-mobile.svg");
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.illustration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width > 770px) {
+  .illustration {
+    background-image: url("/images/illustration-sign-up-desktop.svg");
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .illustration-container {
+    width: 50%;
+    height: 100%;
+  }
+}

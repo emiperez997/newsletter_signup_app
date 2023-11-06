@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Colors */
+:root {
+  --danger: hsl(4, 100%, 67%);
+  --dark-grey: hsl(234, 29%, 20%);
+  --charcoal-grey: hsl(235, 18%, 26%);
+  --grey: hsl(231, 7%, 60%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--charcoal-grey);
+  color: var(--white);
+  width: 100%;
+  height: auto;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-danger {
+  background-color: var(--danger);
+}
+
+.bg-dark-grey {
+  background-color: var(--dark-grey);
+}
+
+.bg-charcoal-grey {
+  background-color: var(--charcoal-grey);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
